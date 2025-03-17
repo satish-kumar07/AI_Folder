@@ -2,7 +2,7 @@ import joblib
 import os
 
 class FileCategorizer:
-    def __init__(self, model_path='model.pkl'):
+    def __init__(self, model_path='d:/LANGUAGE/workspace/ai-directory-management/src/ai/model.pkl'):
         self.model_path = model_path
         self.model = None
 
