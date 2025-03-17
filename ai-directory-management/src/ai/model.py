@@ -8,6 +8,8 @@ class FileCategorizer:
 
     def load_model(self):
         """Load the trained model from a file."""
+        
+        
         if os.path.exists(self.model_path):
             self.model = joblib.load(self.model_path)
         else:
